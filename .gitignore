@@ -1,0 +1,16 @@
+# 忽略Catkin编译生成的核心文件夹
+build/
+devel/
+install/
+log/
+*.cbuild
+
+# 忽略IDE相关配置（可选，但推荐）
+# 如果您希望其他人也能使用和您一样的VSCode设置，可以保留.vscode/，否则忽略它
+.vscode/
+
+# 忽略系统或编辑器自动生成的文件
+*~
+.DS_Store
+*.swp
+*.swo
